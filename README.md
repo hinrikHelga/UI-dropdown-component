@@ -1,3 +1,20 @@
+## Project description
+
+A made-from-scratch dropdown component made with React in Typescript with a select functionality similar to the "Select" component from npm. The project contains dummy data to showcase the functionality.
+
+### Functionality
+
+- The program filters the data from the value in the input box.
+- Matched values are displayed in an alphabetical order in a dropdown list below the input box.
+- The first item in the list is highlighted or "active".
+- The "up" and "down" arrow keys can be used to move the currently active result.
+- The mouse can be used to hover over items and make them visually active.
+- Item is selected by pressing either enter when it is active or click on it.
+- When an item is selected the input box is cleared.
+- If the string value does not match any data the list will display "Engar niðurstöður", a non-selectable item.
+
+***
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
